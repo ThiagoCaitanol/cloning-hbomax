@@ -139,6 +139,8 @@ main {
 }
 
 .assination:hover {
+    background-color: rgb(68, 30, 173);
+    color: black;
 
 }
 
