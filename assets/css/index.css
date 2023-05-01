@@ -13,9 +13,12 @@ body{
     "main"
     "footer";
 
-
+    font-family: 'Roboto';
+    color: aliceblue;
     background-color: black;
 }
+
+
 
 header{
     grid-area: header;
@@ -114,38 +117,86 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: end;
-    text-align: center;
+    align-items: center;
 }
 
 .assination {
-    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: linear-gradient(345deg, rgb(73, 12, 176) 0%, rgb(155, 52, 239) 33%, rgba(255, 255, 255, 0) 66%, rgba(255, 255, 255, 0) 100%) 99% 50% / 400% 400%;
     border: 2px solid transparent;
-    border-radius: 20px;
     color: rgb(255, 255, 255);
     overflow: hidden;
     transition: all 0.5s ease 0s;
-    text-align: center;
-
-    /* background-color: rgb(181, 53, 246);
-    color: rgb(255, 255, 255);
-    border: 2px solid transparent;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 200px;
     border-radius: 20px;
-    padding: 10px;
-    overflow: hidden;
-    transition: all 0.5s ease 0s;
-    margin-right: 10px;
-    margin-left: 10px; */
+    height: 30px;
 }
 
 .assination:hover {
-    background-color: rgb(68, 30, 173);
-    color: black;
+    background-position: 1% 50%;
+    border: 2px solid rgb(198, 0, 255);
+    color: rgb(255, 255, 255);
+    transition: all 0.5s ease 0s;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+}
 
+#in h6{
+    width: 220px;
+    text-align: center;
+    color: aliceblue;
+    font-size: small;
+    font-weight: 300;
 }
 
 main div figure img{
     width: 400px;
+}
+
+#plan {
+    background-image: url(../images/main/background-movies-series.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 300px;
+}
+
+#plan h2 {
+    margin-bottom: 100px;
+    font-size: 30px;
+}
+
+#plans {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.cards-plan {
+    text-align: center;
+    padding-top: 20px;
+    border: 2px solid transparent;
+}
+
+ul li::before {
+    content: "•";
+    color: purple;
+    margin-right: 0.5em;
+}
+
+li {
+    padding-bottom: 10px;
+    
 }
 
 footer {
