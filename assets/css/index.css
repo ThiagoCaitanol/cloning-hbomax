@@ -173,11 +173,26 @@ main div figure img{
     padding-bottom: 50px;
 }
 
+#plan-select {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+
 @media screen and (max-width: 990px) {
     #plans {        
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
+    }
+    #plan-select {        
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #plan-select li{
+        padding-bottom: 30px;
     }
 }
 
@@ -208,12 +223,13 @@ li {
 
 .cards-flex {
     flex: 1;
+
 }
 
 .cards-plan {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: end !important;
 
     text-align: center;
     padding-top: 20px;
@@ -223,16 +239,17 @@ li {
 }
 
 .cards-plan h3 {
-    font-weight: 800;
-    font-size: 30px;
+    font-weight: 500;
+    font-size: 25px;
     padding-top: 15px;
     padding-bottom: 20px;
 }
 
 .cards-plan h2 {
     font-weight: 800;
-    font-size: 500px;
-    
+    font-size: 45px !important;
+    height: 0;
+
 }
 
 .cards-plan button {
@@ -240,6 +257,26 @@ li {
     width: 80%;
     height: 40px;
     text-align: center;
+
+}
+
+#expirience img{
+    width: 80%;
+    position: relative;
+    right: -10%;
+}
+
+hr {
+
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
 
 }
 
