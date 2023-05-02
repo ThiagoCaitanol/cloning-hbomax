@@ -164,9 +164,21 @@ main div figure img{
     background-image: url(../images/main/background-movies-series.png);
     background-size: cover;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     text-align: center;
     margin-top: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width: 990px) {
+    #plans {        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
 
 #plan h2 {
@@ -178,14 +190,9 @@ main div figure img{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
     gap: 50px;
 
-}
-
-.cards-plan {
-    text-align: center;
-    padding-top: 20px;
-    border: 2px solid transparent;
 }
 
 ul li::before {
@@ -198,6 +205,45 @@ li {
     padding-bottom: 10px;
     
 }
+
+.cards-flex {
+    flex: 1;
+}
+
+.cards-plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    text-align: center;
+    padding-top: 20px;
+    border: 2px solid transparent;
+    background: linear-gradient( 180deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0) 100% );
+    border-radius: 8px;
+}
+
+.cards-plan h3 {
+    font-weight: 800;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.cards-plan h2 {
+    font-weight: 800;
+    font-size: 500px;
+    
+}
+
+.cards-plan button {
+    margin-left: 10%;
+    width: 80%;
+    height: 40px;
+    text-align: center;
+
+}
+
+
 
 footer {
     grid-area: footer;
