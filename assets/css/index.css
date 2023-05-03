@@ -299,6 +299,13 @@ li {
     z-index: -1;
 }
 
+#desc {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 35px;
+}
+
 hr {
     height: 1px;
     border-color: purple;
