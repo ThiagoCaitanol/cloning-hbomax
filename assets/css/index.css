@@ -375,4 +375,31 @@ hr {
 
 footer {
     grid-area: footer;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+}
+
+.footer-text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 50px;
+    color: #8356a8;
+    font-size: 15px;
+}
+
+.footer-text a:hover{
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    cursor: pointer;
 }
