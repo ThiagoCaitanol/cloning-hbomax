@@ -15,7 +15,7 @@ body{
 
     font-family: 'Roboto';
     color: aliceblue;
-    background-color: black;
+    background-color: #030328;
 }
 
 
@@ -27,6 +27,7 @@ header{
     align-items: center;
     position: fixed;
     flex-wrap: wrap;
+    z-index: 9999;
     
 
     width: 100%;
@@ -327,6 +328,46 @@ hr {
     text-align: center;
     width: 300px;
 }
+
+#channels {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 0;
+    justify-content: center;
+    padding-left: 50px;
+    grid-row-gap: 20px;
+
+}
+
+#channels figure img{
+    width: 80%;
+}
+
+.grid-cell {
+    position: relative;
+    
+  }
+  
+  .grid-cell .image1,
+  .grid-cell .image2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .grid-cell .image2 {
+    opacity: 0;
+  }
+  
+  .grid-cell:hover .image1 {
+    opacity: 0;
+  }
+  
+  .grid-cell:hover .image2 {
+    opacity: 1;
+  }
 
 
 
