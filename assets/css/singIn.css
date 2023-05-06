@@ -69,6 +69,8 @@ main {
 #login {
     display: flex;
     flex-direction: column;
+    position: relative;
+    left: 15%;
     flex-wrap: wrap;
     justify-content: start;
     width: 70%;
