@@ -49,7 +49,7 @@ header img {
 main {
     grid-area: main;
     text-align: center;
-    height: 900px;
+    height: 1000px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -58,21 +58,23 @@ main {
 
 main h2 {
     padding-bottom: 2rem;
+    position: relative;
+    top: -10%;
     font-size: 40px;
 }
 
 #login {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1rem 1fr 1fr ;
+    grid-template-rows: 3rem 1fr 1fr ;
     position: relative;
     left: 17%;
+    top: -10%;
     flex-wrap: wrap;
     justify-content: start;
     
     width: 60%;
    
-    padding-top: 20px;
     padding-left: 50px;
     padding-right: 50px;
     border: 0px solid transparent;
@@ -84,7 +86,7 @@ main h2 {
 
 #login h4 {
     text-align: start;
-    padding-top: 10px;
+    padding-top: 30px;
 }
 
 input {
@@ -107,9 +109,15 @@ input {
     margin-bottom: 30px;
 }
 
-button{
+#singin{
+    padding-top: 5px;
+    display: flex;
+
+    align-items: flex-start;
+   justify-content: center;
+margin-top: 30px;
     color: antiquewhite;
-    width: 100px;
+    width: 130px;
     height: 30px;
     background-color: rgba(255, 255, 255, 0.12);
     border: 0px solid black;
@@ -119,6 +127,48 @@ button{
     letter-spacing: 0px;
 
 
+}
+button {
+
+  
+
+
+
+
+    color: antiquewhite;
+    width: 80px;
+
+    background-color: rgba(255, 255, 255, 0.12);
+    border: 0px solid black;
+    line-height: 21px;
+    box-sizing: border-box;
+    font-size: 14px;
+    letter-spacing: 0px;
+}
+h5 {
+    color: rgb(145, 129, 248);
+font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+
+    letter-spacing: 0px;
+    line-height: 21px;
+    opacity: 1;
+}
+
+.h{
+    position: absolute;
+    top: 16.4rem;
+    right: 3rem;
+    text-align: start;
+    color: rgb(145, 129, 248);
+font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+
+    letter-spacing: 0px;
+    line-height: 21px;
+    opacity: 1;
 }
 
 @media screen and (max-width: 630px) {
