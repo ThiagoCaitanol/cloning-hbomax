@@ -62,21 +62,29 @@ main h2 {
 }
 
 #login {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1rem 1fr 1fr ;
     position: relative;
-    left: 15%;
+    left: 17%;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: start;
     
-    width: 70%;
-    height: 700px;
+    width: 60%;
+   
     padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
     border: 0px solid transparent;
     background: linear-gradient( 180deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0) 100% );
     border-radius: 8px;
     gap: 30px;
+
+}
+
+#login h4 {
+    text-align: start;
+    padding-top: 10px;
 }
 
 input {
@@ -88,11 +96,15 @@ input {
     color: rgb(255, 255, 255);
     height: 56px;
     padding-left: 12px;
-    width: 100%;
+    width: 90%;
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
     letter-spacing: 0px;
+}
+
+#email {
+    margin-bottom: 30px;
 }
 
 button{
