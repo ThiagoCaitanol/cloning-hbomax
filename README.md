@@ -1,7 +1,10 @@
+<img src="assets/images/readme-images/cover.png">
+
 <h1>Projeto: Clone HBO Max</h1>
 <p>Este repositório contém um clone estático da página HBOMAX, criado com o objetivo de aprimorar minhas habilidades em HTML, CSS puro e responsividade. O projeto utiliza as metodologias de design responsivo e mobile first para garantir uma experiência de usuário intuitiva tanto em dispositivos móveis quanto em desktops.</p><hr>
+
 <p align="center">
-  <img src="assets/images/readme-images/Captura de tela 2023-05-03 024748.jpg" alt="Exemplo de projeto" />
+  <img src="assets/images/readme-images/cloning" alt="Exemplo de projeto" />
 </p>
 
 <h2>Tecnologias Utilizadas</h2>
@@ -18,6 +21,7 @@
     <li>Utilização de técnicas de design modernas, como o uso de flexbox e grid para criar um layout flexível e responsivo.</li>
     <li>Uso de estilos CSS personalizados para replicar os estilos visuais do HBO Max, incluindo cores, fontes, tamanhos de texto, margens e preenchimentos.</li>
     <li>Incorporação de ícones e imagens relevantes para melhorar a aparência geral do clone e torná-lo visualmente atraente.</li>
+    <li>Pagina para login login</li>
 </ul>
 
 <h2>Como utilizar</h2>
