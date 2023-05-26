@@ -170,9 +170,10 @@ main div figure img{
     flex-direction: column;
     text-align: center;
     margin-top: 300px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-bottom: 200px;
+
 }
 
 #plan-select {
