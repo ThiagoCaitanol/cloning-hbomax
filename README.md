@@ -2,6 +2,7 @@
 
 <h1 align="center">Clone HBO Max</h1>
 <p align="center">Este repositório contém um clone estático da página HBOMAX, criado com o objetivo de aprimorar minhas habilidades em HTML, CSS puro e responsividade. O projeto utiliza as metodologias de design responsivo e mobile first para garantir uma experiência de usuário intuitiva tanto em dispositivos móveis quanto em desktops.</p>
+<p align="center">Acesse o projeto atraves do link: https://thiagocaitanol.github.io/cloning-hbomax/</p>
 
 <p align="center">
   <img src="assets/images/readme-images/cloning.png" alt="Exemplo de projeto" />
